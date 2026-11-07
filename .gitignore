@@ -1,0 +1,19 @@
+# Foto profil & QRIS yang diunggah pengguna jangan ikut ke GitHub
+uploads/*
+!uploads/.htaccess
+!uploads/.gitkeep
+!uploads/default.png
+!uploads/qris/
+uploads/qris/*
+!uploads/qris/.gitkeep
+
+# Foto produk yang diunggah pengguna
+produk/gambar/*
+!produk/gambar/.gitkeep
+!produk/gambar/.htaccess
+
+# File bawaan sistem / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
